@@ -1,13 +1,12 @@
-html_content = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Optimisation SEO -->
+
     <title>Mentions Légales | Dre Sarah Obergfell</title>
     <meta name="description" content="Mentions légales du site du Docteur Sarah Obergfell, Médecin Sexologue à Bischheim. Informations sur l'éditeur, l'hébergement et le traitement des données.">
-    <meta name="robots" content="noindex, follow"> <!-- Pas besoin d'indexer massivement cette page -->
+    <meta name="robots" content="noindex, follow">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,7 +47,7 @@ html_content = """<!DOCTYPE html>
     <main id="main-content" class="py-20 px-6">
         <div class="max-w-4xl mx-auto space-y-16">
             
-            <div class="space-y-4">
+            <div>
                 <h1 class="font-serif text-4xl md:text-5xl border-b border-sage-green/30 pb-8">Mentions Légales</h1>
             </div>
 
@@ -67,7 +66,7 @@ html_content = """<!DOCTYPE html>
                 <h2 class="font-serif text-2xl text-sage-green">2. Activité réglementée</h2>
                 <div class="space-y-2 opacity-90">
                     <p><strong>Inscription à l'Ordre des Médecins :</strong> Inscrite au Conseil Départemental de l'Ordre des Médecins du Bas-Rhin.</p>
-                    <p><strong>Numéro RPPS :</strong>10100365260</p>
+                    <p><strong>Numéro RPPS :</strong> 10100365260</p>
                     <p><strong>Conventionnement :</strong> Secteur 2</p>
                     <p class="mt-4 text-sm italic">Les règles professionnelles applicables sont celles du Code de la Santé Publique et du Code de Déontologie Médicale. Ce site internet respecte les recommandations de la Charte de conformité déontologique applicable aux sites web des médecins.</p>
                 </div>
@@ -76,7 +75,8 @@ html_content = """<!DOCTYPE html>
             <section class="space-y-4">
                 <h2 class="font-serif text-2xl text-sage-green">3. Hébergement du site</h2>
                 <div class="space-y-2 opacity-90">
-                    <p><strong>Le site internet est hébergé par OVH - 2 rue Kellermann - 59100 Roubaix - France</p>
+                    <p>Le site internet est hébergé par <strong>GitHub, Inc.</strong> (GitHub Pages) – 88 Colton Street, San Francisco, CA 94107, États-Unis.</p>
+                    <p>Le nom de domaine est enregistré auprès d'<strong>OVH SAS</strong> – 2 rue Kellermann, 59100 Roubaix, France.</p>
                 </div>
             </section>
 
@@ -114,9 +114,4 @@ html_content = """<!DOCTYPE html>
     </footer>
 
 </body>
-</html>"""
-
-with open('mentions-legales.html', 'w', encoding='utf-8') as f:
-    f.write(html_content)
-
-print("HTML file generated.")
+</html>

@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#fbfaf8">
-    
+
     <!-- Optimisation SEO -->
     <title>Médecin Sexologue à Strasbourg (Bischheim) | Dre Sarah Obergfell</title>
     <meta name="description" content="Consultations en sexologie et santé sexuelle à Strasbourg / Bischheim. Le Dre Sarah Obergfell vous accompagne dans un cadre médical bienveillant et inclusif.">
-    <link rel="canonical" href="https://www.s-o-sexo.fr/"> 
+    <link rel="canonical" href="https://www.s-o-sexo.fr/">
 
     <!-- Balises Open Graph (Réseaux Sociaux / Partage) -->
     <meta property="og:title" content="Dre Sarah Obergfell - Médecin Sexologue à Strasbourg">
     <meta property="og:description" content="Un espace d'écoute médicale pour votre intimité. Consultations en sexologie bienveillantes, LGBT-friendly et sans jugement à Bischheim.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.s-o-sexo.fr/">
-    <meta property="og:image" content="https://www.votre-domaine.fr/images/photo-Sarah.webp"> <!-- À REMPLACER -->
-    
+    <meta property="og:image" content="https://www.s-o-sexo.fr/images/photo-Sarah.jpg">
+
     <!-- Préchargement des polices -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-    
+
     <!-- Script CDN Tailwind CSS (Chargement direct) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -49,10 +49,10 @@
         .reveal {
             opacity: 0;
             transform: translateY(35px);
-            transition: opacity 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+            transition: opacity 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                         transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         }
-        
+
         .reveal.active {
             opacity: 1;
             transform: translateY(0);
@@ -60,7 +60,6 @@
         .delay-100 { transition-delay: 100ms; }
         .delay-200 { transition-delay: 200ms; }
         .delay-300 { transition-delay: 300ms; }
-        .delay-400 { transition-delay: 400ms; }
 
         /* Effet navbar au scroll */
         .nav-scrolled {
@@ -68,25 +67,12 @@
             backdrop-filter: blur(5px);
             box-shadow: 0 4px 20px rgba(67, 80, 69, 0.05);
         }
-        
+
         /* Personnalisation de la barre de défilement */
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #fbfaf8; }
         ::-webkit-scrollbar-thumb { background: #e8e3dc; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #a7b5a6; }
-
-        /* Classe utilitaire d'accessibilité pour masquer du texte visuellement tout en le laissant accessible aux lecteurs d'écran */
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border-width: 0;
-        }
     </style>
 </head>
 <body class="bg-off-white text-olive-dark font-sans antialiased selection:bg-sage-green selection:text-white relative">
@@ -95,20 +81,20 @@
         <nav id="navbar" class="fixed w-full z-50 transition-all duration-500 py-4" aria-label="Navigation principale">
             <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
                 <a href="#accueil" class="font-serif text-2xl font-medium tracking-wide focus:ring-2 focus:ring-sage-green outline-none rounded" aria-label="Retour à l'accueil">Dre. Sarah Obergfell</a>
-                
+
                 <!-- Menu Desktop -->
-                <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest" role="menubar">
-                    <a href="#approche" class="hover:text-sage-green transition-colors duration-300 focus:ring-2 focus:ring-sage-green outline-none rounded" role="menuitem">Mon Approche</a>
-                    <a href="#deroulement" class="hover:text-sage-green transition-colors duration-300 focus:ring-2 focus:ring-sage-green outline-none rounded" role="menuitem">Consultation</a>
-                    <a href="#motifs" class="hover:text-sage-green transition-colors duration-300 focus:ring-2 focus:ring-sage-green outline-none rounded" role="menuitem">Motifs</a>
-                    <a href="#contact" class="hover:text-sage-green transition-colors duration-300 focus:ring-2 focus:ring-sage-green outline-none rounded" role="menuitem">Contact</a>
+                <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
+                    <a href="#approche" class="hover:text-sage-green transition-colors duration-300 focus:ring-2 focus:ring-sage-green outline-none rounded">Mon Approche</a>
+                    <a href="#deroulement" class="hover:text-sage-green transition-colors duration-300 focus:ring-2 focus:ring-sage-green outline-none rounded">Consultation</a>
+                    <a href="#motifs" class="hover:text-sage-green transition-colors duration-300 focus:ring-2 focus:ring-sage-green outline-none rounded">Motifs</a>
+                    <a href="#contact" class="hover:text-sage-green transition-colors duration-300 focus:ring-2 focus:ring-sage-green outline-none rounded">Contact</a>
                 </div>
-                
+
                 <!-- Bouton RDV Desktop -->
                 <div class="hidden md:block">
                     <a href="#contact" class="px-6 py-3 bg-olive-dark text-off-white rounded-full text-sm font-medium hover:bg-sage-green transition-colors duration-300 focus:ring-2 focus:ring-olive-dark outline-none focus:ring-offset-2 focus:ring-offset-off-white">Prendre RDV</a>
                 </div>
-                
+
                 <!-- Bouton Menu Mobile (Burger) -->
                 <button id="mobile-menu-btn" class="md:hidden text-olive-dark focus:outline-none focus:ring-2 focus:ring-sage-green rounded p-1" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
                     <svg class="w-6 h-6" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -160,14 +146,14 @@
                 <div class="order-1 lg:order-2 space-y-8 reveal delay-200">
                     <h2 id="titre-approche" class="font-serif text-4xl">Mon approche</h2>
                     <div class="space-y-4 text-lg leading-relaxed opacity-90">
-                        <p>En tant que médecin, ma pratique s'appuie sur des fondements scientifiques rigoureux.</p> 
+                        <p>En tant que médecin, ma pratique s'appuie sur des fondements scientifiques rigoureux.</p>
                         <p>En tant qu'être humain, elle s'ancre dans une profonde empathie.</p>
                         <p>Docteure en médecine, j'ai choisi pour me spécialiser un DIU Sexologie, médecine sexuelle et sexothérapie, mention Santé sexuelle et droits humains, proposé à l'Université Paris Cité sous l'égide de la Chaire de Santé Sexuelle de l'UNESCO.</p>
                         <blockquote class="border-l-4 border-sage-green pl-4 italic">
                             <p>Selon l'OMS, « La santé sexuelle fait partie intégrante de la santé, du bien-être et de la qualité de vie dans leur ensemble. C’est un état de bien-être physique, émotionnel, mental et social en relation avec la sexualité, et non pas simplement l’absence de maladies, de dysfonctionnements ou d’infirmités. [...] Pour que la santé sexuelle soit assurée et protégée, les droits sexuels de toutes les personnes doivent être respectés, protégés et appliqués »</p>
                         </blockquote>
                         <p>Mon approche est par conséquent, par nature, LGBT- et kink-friendly, et luttant contre la grossophobie médicale, le validisme, le racisme et toute autre forme de discrimination.</p>
-                        <p>A mon niveau, et avec humilité, j'ambitionne d'offrir à chacun.e un espace safe pour prendre soin de sa sexualité.</p>
+                        <p>À mon niveau, et avec humilité, j'ambitionne d'offrir à chacun.e un espace safe pour prendre soin de sa sexualité.</p>
                     </div>
                 </div>
             </div>
@@ -179,7 +165,7 @@
                     <h2 id="titre-deroulement" class="font-serif text-4xl mb-4">Le déroulement d'une consultation</h2>
                     <p class="text-lg opacity-90 max-w-2xl mx-auto">Il n'y a pas d'examen physique en sexologie, sauf exception, et jamais à la première consultation.</p>
                 </div>
-                
+
                 <ol class="grid grid-cols-1 md:grid-cols-3 gap-12">
                     <li class="text-center space-y-4 reveal delay-100">
                         <div class="w-12 h-12 bg-mineral-pink rounded-full flex items-center justify-center mx-auto text-off-white font-serif text-xl" aria-hidden="true">1</div>
@@ -207,7 +193,7 @@
                     <p class="text-lg opacity-90">Dès lors qu'une situation engendre de la souffrance, une gêne ou des questionnements, une consultation a sa place. Il n'y a pas de mauvaise raison de consulter.</p>
                     <img src="images/diversite.jpg" alt="" width="800" height="300" loading="lazy" decoding="async" class="w-full h-[300px] object-cover rounded-3xl mt-8">
                 </div>
-                
+
                 <div class="reveal delay-200">
                     <ul class="space-y-6">
                         <li class="flex items-start">
@@ -244,7 +230,7 @@
                         <li class="flex items-start">
                             <span class="text-sage-green mr-4 mt-1" aria-hidden="true">✦</span>
                             <div>
-                                <h3 class="font-medium text-lg">Difficultés relationnelles / de couple liés à la sexualité</h3>
+                                <h3 class="font-medium text-lg">Difficultés relationnelles / de couple liées à la sexualité</h3>
                             </div>
                         </li>
                     </ul>
@@ -256,7 +242,7 @@
             <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div class="space-y-8 reveal">
                     <h2 id="titre-contact" class="font-serif text-4xl">Informations Pratiques</h2>
-                    
+
                     <div class="space-y-6 text-lg">
                         <div>
                             <h3 class="font-medium uppercase tracking-wider text-sm text-sage-green mb-2">Adresse du cabinet</h3>
@@ -265,42 +251,36 @@
                                 67800 Bischheim (Strasbourg Eurométropole)
                             </address>
                         </div>
-                        
+
                         <div>
                             <h3 class="font-medium uppercase tracking-wider text-sm text-sage-green mb-2">Tarifs & Remboursement</h3>
-                            <p>Consultation individuelle: 75€</p>
-                            <p>Consultation de couple 140€</p>  
-                            <p><span class="text-sm opacity-80">En tant que médecin conventionnée de secteur 2, une partie est prise en charge par l'Assurance Maladie et votre mutuelle.</span></p>
+                            <p>Consultation individuelle : 75€</p>
+                            <p>Consultation de couple : 140€</p>
+                            <p class="text-sm opacity-80">En tant que médecin conventionnée de secteur 2, une partie est prise en charge par l'Assurance Maladie et votre mutuelle.</p>
                         </div>
 
                         <div class="pt-6">
                             <a href="#" class="inline-block px-8 py-4 bg-olive-dark text-off-white rounded-full font-medium hover:bg-sage-green transition-colors duration-300 focus:ring-2 focus:ring-olive-dark outline-none focus:ring-offset-2 focus:ring-offset-off-white">
                                 Prendre Rendez-vous sur Doctolib
                             </a>
-                            <p class="mt-4">Ou par téléphone (assistant vocal):
+                            <p class="mt-4">Ou par téléphone (assistant vocal) :
                                 <a href="tel:+33621192874" class="underline hover:text-sage-green focus:ring-2 focus:ring-sage-green outline-none rounded">06.21.19.28.74</a>
                             </p>
                         </div>
                     </div>
 
-                    <div class="carte-acces">
-                        <iframe 
-                          title="Carte géographique situant le cabinet médical à Bischheim"
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.710868736664!2d7.750095777216877!3d48.61537747130026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c876ddfdb163%3A0x718eddb25f0b345b!2s43%20Rte%20de%20Bischwiller%2C%2067800%20Bischheim!5e0!3m2!1sfr!2sfr!4v1792053291443!5m2!1sfr!2sfr"
-                          width="100%" 
-                          height="350" 
-                          style="border:0; border-radius: 8px;" 
-                          allowfullscreen="" 
-                          loading="lazy" 
-                          referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
+                    <iframe title="Carte géographique situant le cabinet médical à Bischheim"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.710868736664!2d7.750095777216877!3d48.61537747130026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c876ddfdb163%3A0x718eddb25f0b345b!2s43%20Rte%20de%20Bischwiller%2C%2067800%20Bischheim!5e0!3m2!1sfr!2sfr!4v1792053291443!5m2!1sfr!2sfr"
+                        class="w-full h-[350px] border-0 rounded-lg"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
                 <div class="reveal delay-200">
                     <div class="bg-clay-beige p-8 rounded-3xl h-full flex flex-col justify-center">
                         <h3 class="font-serif text-2xl mb-6">Me contacter</h3>
-                        <form class="space-y-4" action="mailto" method="post" enctype="text/plain">
+                        <form class="space-y-4" action="mailto:bonjour@s-o-sexo.fr" method="post" enctype="text/plain">
                             <div>
                                 <label for="nom" class="sr-only">Votre nom</label>
                                 <input type="text" id="nom" name="nom" autocomplete="name" placeholder="Votre nom" required class="w-full bg-off-white border-none rounded-xl p-4 focus:ring-2 focus:ring-sage-green outline-none transition-all">
@@ -311,7 +291,7 @@
                             </div>
                             <div>
                                 <label for="message" class="sr-only">Votre message</label>
-                                <textarea id="message" name="message" required placeholder="Pour votre sécurité et la mienne, je vous remercie de n'utiliser cette messagerie que pour pour une prise de contact en-dehors d'une dimension de consultation médicale (formations, consulting, etc.). Si votre question me paraît d'ordre médical, je vous invite à prendre rendez-vous en cliquant sur le bouton ci à-côté." rows="6" class="w-full bg-off-white border-none rounded-xl p-4 focus:ring-2 focus:ring-sage-green outline-none transition-all"></textarea>
+                                <textarea id="message" name="message" required placeholder="Pour votre sécurité et la mienne, je vous remercie de n'utiliser cette messagerie que pour une prise de contact en-dehors d'une dimension de consultation médicale (formations, consulting, etc.). Si votre question me paraît d'ordre médical, je vous invite à prendre rendez-vous en cliquant sur le bouton « Prendre Rendez-vous sur Doctolib »." rows="6" class="w-full bg-off-white border-none rounded-xl p-4 focus:ring-2 focus:ring-sage-green outline-none transition-all"></textarea>
                             </div>
                             <button type="submit" class="w-full px-6 py-4 border border-olive-dark text-olive-dark rounded-xl font-medium hover:bg-olive-dark hover:text-off-white transition-colors duration-300 focus:ring-2 focus:ring-olive-dark outline-none focus:ring-offset-2 focus:ring-offset-clay-beige">
                                 Envoyer le message
@@ -326,17 +306,10 @@
     <footer class="bg-olive-dark text-off-white py-8 text-center text-sm opacity-90">
         <p>© 2026 Dre Sarah Obergfell - Médecin Sexologue. Tous droits réservés. | <a href="mentions-legales.html" class="underline hover:text-sage-green focus:ring-2 focus:ring-sage-green outline-none rounded">Mentions Légales</a></p>
     </footer>
-    
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // 1. Intersection Observer pour les animations au scroll
-            const observerOptions = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.15
-            };
-
             const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -344,10 +317,9 @@
                         observer.unobserve(entry.target);
                     }
                 });
-            }, observerOptions);
+            }, { threshold: 0.15 });
 
-            const revealElements = document.querySelectorAll('.reveal');
-            revealElements.forEach(el => observer.observe(el));
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
             // 2. Changement d'apparence de la navbar au scroll
             const navbar = document.getElementById('navbar');
