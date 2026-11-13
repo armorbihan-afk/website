@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#fbfaf8">
 
     <!-- Optimisation SEO -->
-    <title>Médecin Sexologue à Strasbourg (Bischheim) | Dre Sarah Obergfell</title>
+    <title>Médecin sexologue à Strasbourg | Dre Sarah Obergfell</title>
     <meta name="description" content="Consultations en sexologie et santé sexuelle à Strasbourg / Bischheim. Le Dre Sarah Obergfell vous accompagne dans un cadre médical bienveillant et inclusif.">
     <link rel="canonical" href="https://www.s-o-sexo.fr/">
 
@@ -32,33 +32,162 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Physician",
-        "@id": "https://www.s-o-sexo.fr/#cabinet",
-        "name": "Dre Sarah Obergfell - Médecin Sexologue",
-        "description": "Consultations en sexologie et santé sexuelle à Strasbourg / Bischheim, dans un cadre médical bienveillant et inclusif.",
-        "url": "https://www.s-o-sexo.fr/",
-        "image": "https://www.s-o-sexo.fr/images/photo-Sarah.jpg",
-        "telephone": "+33621192874",
-        "priceRange": "75 € - 140 €",
-        "currenciesAccepted": "EUR",
-        "isAcceptingNewPatients": true,
-        "knowsAbout": ["Sexologie", "Médecine sexuelle", "Santé sexuelle", "Sexothérapie"],
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "43 route de Bischwiller",
-            "postalCode": "67800",
-            "addressLocality": "Bischheim",
-            "addressRegion": "Grand Est",
-            "addressCountry": "FR"
-        },
-        "areaServed": [
-            { "@type": "City", "name": "Strasbourg" },
-            { "@type": "City", "name": "Bischheim" },
-            { "@type": "AdministrativeArea", "name": "Eurométropole de Strasbourg" }
-        ],
-        "hasMap": "https://www.google.com/maps/search/?api=1&query=43+route+de+Bischwiller%2C+67800+Bischheim",
-        "sameAs": [
-            "https://www.doctolib.fr/medecin-generaliste/bischheim/sarah-obergfell-70362181-0cf1-41c3-9fcb-d4bf00d1360b"
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://www.s-o-sexo.fr/#website",
+                "url": "https://www.s-o-sexo.fr/",
+                "name": "Dre Sarah Obergfell - Médecin Sexologue",
+                "inLanguage": "fr-FR",
+                "publisher": {
+                    "@id": "https://www.s-o-sexo.fr/#cabinet"
+                }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://www.s-o-sexo.fr/#webpage",
+                "url": "https://www.s-o-sexo.fr/",
+                "name": "Médecin sexologue à Strasbourg | Dre Sarah Obergfell",
+                "description": "Consultations en sexologie et santé sexuelle à Strasbourg / Bischheim. Le Dre Sarah Obergfell vous accompagne dans un cadre médical bienveillant et inclusif.",
+                "inLanguage": "fr-FR",
+                "isPartOf": {
+                    "@id": "https://www.s-o-sexo.fr/#website"
+                },
+                "about": {
+                    "@id": "https://www.s-o-sexo.fr/#cabinet"
+                },
+                "mainEntity": {
+                    "@id": "https://www.s-o-sexo.fr/#cabinet"
+                },
+                "primaryImageOfPage": "https://www.s-o-sexo.fr/images/photo-Sarah.jpg",
+                "dateModified": "2026-11-13",
+                "reviewedBy": {
+                    "@id": "https://www.s-o-sexo.fr/#sarah-obergfell"
+                },
+                "speakable": {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#titre-principal",
+                        "#accueil p",
+                        "#approche p"
+                    ]
+                }
+            },
+            {
+                "@type": "Physician",
+                "@id": "https://www.s-o-sexo.fr/#cabinet",
+                "name": "Dre Sarah Obergfell - Médecin Sexologue",
+                "description": "Consultations en sexologie et santé sexuelle à Strasbourg / Bischheim, dans un cadre médical bienveillant et inclusif.",
+                "url": "https://www.s-o-sexo.fr/",
+                "image": "https://www.s-o-sexo.fr/images/photo-Sarah.jpg",
+                "telephone": "+33621192874",
+                "priceRange": "75 € - 140 €",
+                "currenciesAccepted": "EUR",
+                "isAcceptingNewPatients": true,
+                "knowsAbout": [
+                    "Sexologie",
+                    "Médecine sexuelle",
+                    "Santé sexuelle",
+                    "Sexothérapie"
+                ],
+                "employee": {
+                    "@id": "https://www.s-o-sexo.fr/#sarah-obergfell"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "43 route de Bischwiller",
+                    "postalCode": "67800",
+                    "addressLocality": "Bischheim",
+                    "addressRegion": "Grand Est",
+                    "addressCountry": "FR"
+                },
+                "areaServed": [
+                    {
+                        "@type": "City",
+                        "name": "Strasbourg"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Bischheim"
+                    },
+                    {
+                        "@type": "AdministrativeArea",
+                        "name": "Eurométropole de Strasbourg"
+                    }
+                ],
+                "hasMap": "https://www.google.com/maps/search/?api=1&query=43+route+de+Bischwiller%2C+67800+Bischheim",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "Prise de rendez-vous",
+                    "telephone": "+33621192874",
+                    "url": "https://www.doctolib.fr/medecin-generaliste/bischheim/sarah-obergfell-70362181-0cf1-41c3-9fcb-d4bf00d1360b",
+                    "availableLanguage": "fr"
+                },
+                "makesOffer": [
+                    {
+                        "@type": "Offer",
+                        "name": "Consultation individuelle de sexologie",
+                        "price": "75",
+                        "priceCurrency": "EUR",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Consultation individuelle de sexologie"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "name": "Consultation de couple en sexologie",
+                        "price": "140",
+                        "priceCurrency": "EUR",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Consultation de couple en sexologie"
+                        }
+                    }
+                ],
+                "sameAs": [
+                    "https://www.doctolib.fr/medecin-generaliste/bischheim/sarah-obergfell-70362181-0cf1-41c3-9fcb-d4bf00d1360b"
+                ]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://www.s-o-sexo.fr/#sarah-obergfell",
+                "name": "Sarah Obergfell",
+                "honorificPrefix": "Dre",
+                "jobTitle": "Médecin sexologue",
+                "description": "Docteure en médecine, titulaire du DIU Sexologie, médecine sexuelle et sexothérapie (mention Santé sexuelle et droits humains), Université Paris Cité.",
+                "image": "https://www.s-o-sexo.fr/images/photo-Sarah.jpg",
+                "url": "https://www.s-o-sexo.fr/#approche",
+                "worksFor": {
+                    "@id": "https://www.s-o-sexo.fr/#cabinet"
+                },
+                "knowsAbout": [
+                    "Sexologie",
+                    "Médecine sexuelle",
+                    "Santé sexuelle",
+                    "Sexothérapie"
+                ],
+                "hasCredential": [
+                    {
+                        "@type": "EducationalOccupationalCredential",
+                        "name": "Docteure en médecine",
+                        "credentialCategory": "degree"
+                    },
+                    {
+                        "@type": "EducationalOccupationalCredential",
+                        "name": "DIU Sexologie, médecine sexuelle et sexothérapie, mention Santé sexuelle et droits humains",
+                        "credentialCategory": "Diplôme inter-universitaire (DIU)",
+                        "recognizedBy": {
+                            "@type": "CollegeOrUniversity",
+                            "name": "Université Paris Cité",
+                            "url": "https://u-paris.fr/"
+                        }
+                    }
+                ],
+                "sameAs": [
+                    "https://www.doctolib.fr/medecin-generaliste/bischheim/sarah-obergfell-70362181-0cf1-41c3-9fcb-d4bf00d1360b"
+                ]
+            }
         ]
     }
     </script>
@@ -126,7 +255,7 @@
     <header>
         <nav id="navbar" class="fixed w-full z-50 transition-all duration-500 py-4" aria-label="Navigation principale">
             <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
-                <a href="#accueil" class="font-serif text-2xl font-medium tracking-wide focus:ring-2 focus:ring-sage-green outline-none rounded" aria-label="Retour à l'accueil">Dre. Sarah Obergfell</a>
+                <a href="#accueil" class="font-serif text-2xl font-medium tracking-wide focus:ring-2 focus:ring-sage-green outline-none rounded" aria-label="Retour à l'accueil">Dre Sarah Obergfell</a>
 
                 <!-- Menu Desktop -->
                 <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">

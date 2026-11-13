@@ -1,0 +1,20 @@
+# Dre Sarah Obergfell - Médecin Sexologue
+
+> Cabinet de sexologie médicale de la Dre Sarah Obergfell, docteure en médecine titulaire du DIU Sexologie, médecine sexuelle et sexothérapie (Université Paris Cité). Le cabinet est situé 43 route de Bischwiller, 67800 Bischheim (Eurométropole de Strasbourg) et propose des consultations individuelles (75 €) et de couple (140 €). Médecin conventionnée secteur 2 ; prise de rendez-vous sur Doctolib ou par téléphone au 06 21 19 28 74.
+
+Consultations pour les difficultés de la vie intime, affective et sexuelle : baisse du désir ou du plaisir, douleurs (dyspareunie, vaginisme), troubles de l'érection ou de l'éjaculation, accompagnement lors d'une maladie ou d'une situation de vie (endométriose, cancer, post-partum, ménopause), questionnements sur l'identité de genre ou l'orientation sexuelle, difficultés de couple liées à la sexualité. Approche LGBT- et kink-friendly, sans jugement. Pas d'examen physique, sauf exception, et jamais à la première consultation. Site en français.
+
+## Cabinet
+- [Accueil](https://www.s-o-sexo.fr/): Présentation du cabinet de sexologie médicale à Bischheim, près de Strasbourg
+- [Mon approche](https://www.s-o-sexo.fr/#approche): Formation de la praticienne (DIU de sexologie) et approche inclusive de la santé sexuelle
+- [Déroulement d'une consultation](https://www.s-o-sexo.fr/#deroulement): Les 3 étapes : rencontre, évaluation, accompagnement thérapeutique personnalisé
+- [Motifs de consultation](https://www.s-o-sexo.fr/#motifs): Désir, douleurs, érection, éjaculation, maladie, genre, orientation, couple
+- [Informations pratiques](https://www.s-o-sexo.fr/#contact): Adresse, tarifs, remboursement secteur 2, rendez-vous Doctolib et téléphone
+
+## Rendez-vous
+- [Doctolib](https://www.doctolib.fr/medecin-generaliste/bischheim/sarah-obergfell-70362181-0cf1-41c3-9fcb-d4bf00d1360b): Prise de rendez-vous en ligne au cabinet de Bischheim
+- [Itinéraire](https://www.google.com/maps/search/?api=1&query=43+route+de+Bischwiller%2C+67800+Bischheim): 43 route de Bischwiller, 67800 Bischheim, sur Google Maps
+
+## Optional
+- [Mentions légales](https://www.s-o-sexo.fr/mentions-legales.html): Éditeur, hébergement et traitement des données personnelles
+- [Version complète](https://www.s-o-sexo.fr/llms-full.txt): Contenu intégral du site en Markdown
